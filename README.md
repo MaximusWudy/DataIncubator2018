@@ -7,7 +7,15 @@ During this challenge I finished with data wrangling and exploratory analysis on
 
 #### Plot Explanation: 
 (1)Dynamic gif showing the growing of traffic collision hot spots in Brooklyn from 201703 to 201801. Atlantic Avenue and Flatbush Avenue are top 2 street names where most of the traffic collisions happen.
-(2)Tree map indicating the top contributors within each factor that could be significant in the TES model. Note that the area proportion of the factors is not as meaningful as the area proportion of the contributors within factors. Note that during the time range of interest, there are more collisions happened in even weekday (Tue, Thu, Sat) plus Friday; Driver Inattention/Distraction is definitely the top cause of collision; when the collision happens within the open and closed time of a 311 traffic service request, then the request (as factor Complaint in the plot) will also be counted as a contributor towards the collision; Fog/heavy fog and haze/smoke are two severe weather types relative to thunder and damaging wind.
+
+![alt text](https://github.com/MaximusWudy/DataIncubator2018/blob/master/Brooklyn_cumulative_ggmap_v3.gif "Brooklyn Cumulative Collision Density")
+
+
+(2)Tree map indicating the top contributors within each factor that could be significant in the TES model. Note that the area proportion of the factors is not as meaningful as the area proportion of the contributors within factors. 
+
+![alt text](https://github.com/MaximusWudy/DataIncubator2018/blob/master/Tree_map_v2_1078_790.png "Treemap")
+
+Note that during the time range of interest, there are more collisions happened in even weekday (Tue, Thu, Sat) plus Friday; Driver Inattention/Distraction is definitely the top cause of collision; when the collision happens within the open and closed time of a 311 traffic service request, then the request (as factor Complaint in the plot) will also be counted as a contributor towards the collision; Fog/heavy fog and haze/smoke are two severe weather types relative to thunder and damaging wind.
 
 #### TES Prediction Model Description:
 Generalized Mixed Effect model will be my first choice to obtain probabilities of a upcoming collision. The model takes into account the street levels variability (different streets should have different ‘intercepts’ which can be simplified using a random variable from a certain distribution assumption) and generally has a better performance than logistic regression model. I would also consider ensemble models such as XGBoost to enhance the performance of my model.
