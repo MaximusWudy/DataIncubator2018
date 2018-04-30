@@ -22,8 +22,13 @@ Generalized Mixed Effect model will be my first choice to obtain probabilities o
 
 #### Data Sources: 
 (1)NYPD Motor Vehicle Collisions (201703-201801); 
+
 (2)Historical Weather Near Brooklyn (2015-2018); 
+
 (3)311_Service_Requests_from_2010_to_Present; 
+
 (4)Street_Closures_due_to_construction_activities_by_Block (2017-Present) 
+
 (5)511NY Traffic Information
+
 (6)Real-Time Traffic Speed Data
