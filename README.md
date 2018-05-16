@@ -32,4 +32,6 @@ Note that during the time range of interest, there are more collisions happened 
 
 #### Generalized Linear Mixed Effect Model
 
-![alt text](https://github.com/MaximusWudy/DataIncubator2018/blob/master/GLMM_mod1.png "GLMM Model")
+![alt text](https://github.com/MaximusWudy/DataIncubator2018/blob/master/GLMM_mod1.png "GLMM Model 1")
+
+![alt text](https://github.com/MaximusWudy/DataIncubator2018/blob/master/GLMM_mod2.png "GLMM Model 2")
