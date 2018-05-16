@@ -32,23 +32,4 @@ Note that during the time range of interest, there are more collisions happened 
 
 #### Generalized Linear Mixed Effect Model
 
-$$
-\begin{aligned}
-logit(E[y_{ij}|\mu_i]) = \beta_0 &+ u_i + \beta_1*Speed_{ij} + \beta_{2}*1\{Time_{ij} = Morning\} + \beta_{3}*1\{Time_{ij} = Afternoon\} \\
-&+ \beta_{4}*1\{Time_{ij} = Night\} + \beta_{5}*1\{Time_{ij} = Midnight\} + \beta_6*Rainfall_{ij}\\
-& + \beta_7*Snowdepth_{ij} + \beta_{8}*1\{Weather\ Type_{ij}=Fog\}+ \beta_{9}*1\{Weather\ Type_{ij}=Thunder\} \\
-&+ \beta_{10}*1\{Weather\ Type_{ij}=Smoke\}+ \beta_{11}*1\{Weather\ Type_{ij}=Ice Pellet\}\\
-& + \beta_{12}*1\{Roadwork_{ij}=True\} + \beta_{13}*1\{311Service_{ij}=True\}
-\end{aligned}
-$$
-
-$$
-i:\ street,\ \ j:\ accident\ at\ street\ i,\ u_i\sim N(0, \sigma^2)
-$$
-
-$$
-\begin{aligned}
-y_{ij} &= 1,\ if\ accident\ j\ caused\ by\ nondriver\ factors\ happens\ at\ street\ i\\
-y_{ij} &= 0,\ otherwise
-\end{aligned}
-$$
+![alt text](https://github.com/MaximusWudy/DataIncubator2018/blob/master/GLMM_mod1.png "GLMM Model")
